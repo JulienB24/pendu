@@ -176,7 +176,7 @@ function devinerLettre(lettre) {
     document.getElementById(`lettre-${lettre}`).style.backgroundColor = "black";
     document.getElementById(`lettre-${lettre}`).onclick = null;
     tentatives--;
-    document.getElementById("img").src = `/image/le-pendu${tentatives}.png`;
+    document.getElementById("img").src = `./image/le-pendu${tentatives}.png`;
 
     document.getElementById("tentatives").textContent = tentatives;
     if (tentatives === 0) {
