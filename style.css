@@ -1,0 +1,26 @@
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 5px;
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.key {
+  background-color: rgb(148, 148, 147);
+  box-shadow: 10px 10px 30px rgb(34, 34, 34);
+  border-radius: 5%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  padding: auto;
+  text-align: center;
+  cursor: pointer;
+}
+.key:hover {
+  cursor: pointer;
+  color: rgb(117, 114, 122);
+  background-color: rgba(24, 24, 23, 0.5);
+  box-shadow: 10px 10px 30px rgb(54, 33, 92);
+}
